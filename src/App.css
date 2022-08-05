@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+.APP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
 }
 
 .App-logo {
@@ -35,4 +38,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.item_container {
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.delete {
+  color: red;
+  font-weight: bolder;
+}
+.add_container{
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  width: 10rem;
+  padding: 5px;
+  margin: 5px;
 }
